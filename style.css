@@ -1,0 +1,145 @@
+.nav-bar{
+    background-color: black;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+.nav-img{
+    width: 30%;
+    float: left;
+    
+}
+.nav-content{
+    width: 40%;
+    float: right;
+}
+.nav-img img{
+    width: 80px;
+    height: 70px;
+    padding: 30px;
+    padding-top: 10px;
+}
+.clearfix {
+    clear: both;
+}
+
+.nav-bar .nav-content ul li{
+    list-style: none;
+    float: left;
+    padding: 10px 15px;
+    font-size: 25px;
+    
+}
+.nav-bar .nav-content ul li a{
+   text-decoration: none;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 40px;
+   line-height: 48px;
+   text-align: right;
+   
+   color: #F25123;
+   color: #7FBA00;
+   color: blue;
+   color: red;
+}
+.home{
+    background-image: url(img/Rectangle\ 8.png);
+    height: 100vh;
+    background-size: 100% 100%;
+    overflow: auto;
+    color: black;
+}
+.home-content{
+    text-align: center;
+    margin-top: 250px ;
+    font-size: xx-large;
+}
+.home .home-content button{
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 30%;
+    font-size: large;
+    font-weight: bold;
+}
+.our-team-heading{
+    text-align: center;
+}
+.item img{
+    width: 129.9px;
+    height: 129.9px;
+   width: 20h;
+}
+.item {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.item img{
+    border-radius: 50%;
+}
+.our-team-content{
+    width: 80%;
+   margin: auto;
+}
+.our-team-heading h2{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #7FBA00;
+
+}
+.our-team-content h2{
+    
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 37.5375px;
+line-height: 45px;
+text-align: right;
+
+color: #FFFFFF;
+}
+.our-team-content p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 25.8071px;
+line-height: 31px;
+text-align: right;
+
+color: #F25123;
+
+}
+.people-heading{
+    margin-top: 50px 0px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    
+    color: #F25123;
+}
+.people-item{
+    width: 33.333333%;
+    float: left;
+    text-align: center;
+    margin: 10px 0px;
+}
